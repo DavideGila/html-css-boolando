@@ -46,6 +46,13 @@ a {
     flex-flow: row wrap;
 }
 
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
 /* header */
 
 header {
@@ -166,4 +173,19 @@ h6 {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--bg-footer);
+    padding: 25px 0;
+}
+
+footer h3, h4 {
+    color: var(--secondary-color);
+}
+
+footer > div:first-child {
+    line-height: 40px;
 }
